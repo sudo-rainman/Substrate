@@ -14,7 +14,7 @@ fn main() {
 
     while i < to_slice.len()- substr.len() {
         let s = &to_slice[i..(i+substr.len())];
-        println!("{}",s);
+        
         if s.contains(&substr) {
             total += 1;
             i+=1;
