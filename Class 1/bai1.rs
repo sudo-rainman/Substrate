@@ -9,6 +9,7 @@ fn main() {
             j += 1;
             if j == sub_arr.len(){
                 println!("found");
+                break;
             }
         } else {
             i = i - j +1;
