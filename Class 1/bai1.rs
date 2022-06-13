@@ -16,7 +16,7 @@ fn main() {
         }
         
     }
-    if i >= org_arr.len() {
+    if j != sub_arr.len() {
         println!("false");
     }
 
